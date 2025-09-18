@@ -50,7 +50,7 @@ expense-tracker/
 
 🚀 How to Run
 1️⃣ Clone the repo
-git clone https://github.com/your-username/expense-tracker.git
+git clone https://github.com/mithungoudao/expense-tracker.git
 cd expense-tracker
 
 2️⃣ Install dependencies
