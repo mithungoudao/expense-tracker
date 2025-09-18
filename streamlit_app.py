@@ -44,11 +44,6 @@ if expenses:
         total_df = pd.DataFrame(list(totals.items()), columns=["Category", "Total (₹)"])
         st.table(total_df)
 
-        # Spend distribution pie chart
-        # st.subheader("🥧 Spend Distribution by Category")
-        # fig = px.pie(total_df, values="Total (₹)", names="Category", title="Category-wise Spend")
-        # st.plotly_chart(fig, use_container_width=True)
-
 else:
     st.info("No expenses recorded yet.")
 
