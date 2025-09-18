@@ -1,0 +1,30 @@
+For my demo project, I built a Simple Expense Tracker Application using Python, Object-Oriented Programming, SQLite, and Streamlit.
+
+The goal of this project was to demonstrate how I can apply OOP principles in a practical way while also covering CRUD operations end-to-end.
+
+I designed the project with three main classes:
+
+Expense → represents a single expense with date, category, amount, and description.
+
+ExpenseTracker → manages the list of expenses and calls the database layer for CRUD operations.
+
+DBHandler → abstracts all the SQLite operations like creating tables, inserting, updating, deleting, and fetching records.
+
+This design shows Encapsulation (expense data inside the class), Abstraction (database logic hidden in DBHandler), Polymorphism (same CRUD methods work across different inputs), and is easily extendable for Inheritance (e.g., replacing DBHandler with PostgreSQL or MySQL).
+
+The UI is built with Streamlit, which makes it easy to interact with the system. On a single page, I implemented:
+
+➕ Create → Add new expenses via a sidebar form.
+
+📋 Read → Display all expenses in a table and show totals by category.
+
+✏️ Update → Select an expense ID and update its details.
+
+❌ Delete → Select an expense ID and remove it.
+
+For persistence, I chose SQLite over CSV because it handles CRUD more efficiently and is closer to real-world applications.
+
+The project is kept modular, so it’s easy to extend in the future with features like authentication, exporting reports, or adding visualizations like charts.
+
+In summary, this project highlights my ability to design with OOP principles, implement full CRUD with a database, and present it with a simple yet effective UI.
+
