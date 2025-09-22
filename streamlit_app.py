@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 from datetime import date
 from app.expense import Expense, ExpenseTracker
 
